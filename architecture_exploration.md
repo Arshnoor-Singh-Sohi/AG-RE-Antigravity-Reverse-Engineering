@@ -36,6 +36,15 @@ Understanding AntiGravity requires grasping both its structural organization and
 
 This diagram shows the complete structural view of AntiGravity, illustrating how components are organized into layers and how they interact with each other and the external world.
 ```mermaid
+%%{init: {
+  "theme": "default",
+  "themeVariables": {
+    "background": "#fff9e6",
+    "lineColor": "#374151",
+    "edgeLabelBackground": "#ffffff",
+    "primaryTextColor": "#111827"
+  }
+}}%%
 graph TB
     subgraph External["External World"]
         User["👤 User / AI Model"]
@@ -164,6 +173,7 @@ The flow of control through these layers follows a predictable pattern. Requests
 
 While the architecture diagram shows structural relationships, the sequence diagram reveals temporal behavior. This diagram traces a single request from submission through completion, showing every state transition and decision point.
 ```mermaid
+%%{init: {"theme":"default","themeVariables":{"background":"#fff9e6"}}}%%
 sequenceDiagram
     participant User as 👤 User/AI Model
     participant API as API Layer
@@ -1353,4 +1363,11 @@ The patterns revealed here extend beyond AntiGravity itself. Layered architectur
 **Related Resources:**  
 - Original reverse engineering blog: https://alokbishoyi.com/blogposts/reverse-engineering-browser-automation.html  
 - Mermaid documentation: https://mermaid.js.org/  
+
 - Chrome DevTools Protocol: https://chromedevtools.github.io/devtools-protocol/
+
+
+
+
+
+
