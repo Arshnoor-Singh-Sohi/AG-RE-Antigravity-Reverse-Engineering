@@ -36,6 +36,7 @@ Understanding AntiGravity requires grasping both its structural organization and
 
 This diagram shows the complete structural view of AntiGravity, illustrating how components are organized into layers and how they interact with each other and the external world.
 ```mermaid
+%%{init: {'theme': 'default'} }%%
 graph TB
     subgraph External["External World"]
         User["👤 User / AI Model"]
@@ -1353,4 +1354,5 @@ The patterns revealed here extend beyond AntiGravity itself. Layered architectur
 **Related Resources:**  
 - Original reverse engineering blog: https://alokbishoyi.com/blogposts/reverse-engineering-browser-automation.html  
 - Mermaid documentation: https://mermaid.js.org/  
+
 - Chrome DevTools Protocol: https://chromedevtools.github.io/devtools-protocol/
