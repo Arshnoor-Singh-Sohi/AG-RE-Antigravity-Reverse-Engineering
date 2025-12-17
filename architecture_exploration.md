@@ -173,22 +173,7 @@ The flow of control through these layers follows a predictable pattern. Requests
 
 While the architecture diagram shows structural relationships, the sequence diagram reveals temporal behavior. This diagram traces a single request from submission through completion, showing every state transition and decision point.
 ```mermaid
-%%{init: {
-  "theme": "default",
-  "themeVariables": {
-    "background": "#fff9e6",
-    "lineColor": "#374151",
-    "primaryTextColor": "#111827",
-    "actorTextColor": "#111827",
-    "actorBorderColor": "#374151",
-    "actorBkg": "#ffffff",
-    "signalTextColor": "#111827",
-    "signalColor": "#374151",
-    "noteBkgColor": "#ffffff",
-    "noteTextColor": "#111827",
-    "noteBorderColor": "#374151"
-  }
-}}%%
+%%{init: {"theme":"default","themeVariables":{"background":"#fff9e6"}}}%%
 sequenceDiagram
     participant User as 👤 User/AI Model
     participant API as API Layer
@@ -1380,6 +1365,7 @@ The patterns revealed here extend beyond AntiGravity itself. Layered architectur
 - Mermaid documentation: https://mermaid.js.org/  
 
 - Chrome DevTools Protocol: https://chromedevtools.github.io/devtools-protocol/
+
 
 
 
