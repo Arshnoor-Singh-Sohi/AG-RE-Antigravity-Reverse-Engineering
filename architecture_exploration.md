@@ -178,8 +178,15 @@ While the architecture diagram shows structural relationships, the sequence diag
   "themeVariables": {
     "background": "#fff9e6",
     "lineColor": "#374151",
-    "edgeLabelBackground": "#ffffff",
-    "primaryTextColor": "#111827"
+    "primaryTextColor": "#111827",
+    "actorTextColor": "#111827",
+    "actorBorderColor": "#374151",
+    "actorBkg": "#ffffff",
+    "signalTextColor": "#111827",
+    "signalColor": "#374151",
+    "noteBkgColor": "#ffffff",
+    "noteTextColor": "#111827",
+    "noteBorderColor": "#374151"
   }
 }}%%
 sequenceDiagram
@@ -1373,6 +1380,7 @@ The patterns revealed here extend beyond AntiGravity itself. Layered architectur
 - Mermaid documentation: https://mermaid.js.org/  
 
 - Chrome DevTools Protocol: https://chromedevtools.github.io/devtools-protocol/
+
 
 
 
