@@ -147,9 +147,3 @@ Whether you use this documentation to build integrations, to study system design
 Now turn to the main architectural document and begin your journey into understanding AntiGravity. Take your time, follow the progression, and build your understanding piece by piece. The system is complex but approachable when taken systematically. You will emerge with knowledge that serves you far beyond this specific system.
 
 ---
-
-**Repository Maintainer:** AntiGravity Reverse Engineering Community  
-**Primary Documentation:** `antigravity-architecture-complete.md`  
-**License:** Educational use and interoperability  
-**Last Updated:** December 2024  
-**Questions:** Open an issue or start a discussion in the repository
